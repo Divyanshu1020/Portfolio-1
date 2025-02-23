@@ -11,9 +11,9 @@ type AllProjects = Project[];
 
 export const allProjects: AllProjects = [
   {
-    title: "E-Commerce Platform",
+    title: "Real-Time Chat Application",
     description:
-      "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, product management, and payment integration.",
+      "A real-time chat application built with modern web technologies, featuring a responsive UI, smooth animations, and seamless state management.",
     longDescription: `
 ### A real-time chat application built with modern web technologies, featuring a responsive UI, smooth animations, and seamless state management.
 
@@ -27,54 +27,85 @@ export const allProjects: AllProjects = [
 - **Secure Authentication** with JWT
 - **Image Sharing** with Cloudinary integration
 - **Real-time User Status Updates**
+
+## 🛠️ Technologies Used
+
+- React.js
+- Redux Toolkit & RTK Query
+- Tailwind CSS
+- Framer Motion
+- Socket.IO Client
+- JWT for authentication
 `,
     image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://res.cloudinary.com/dnq2kbsta/image/upload/v1739950577/portfolio/a9gnjg7mtze9mwvek79r.jpg",
+    technologies: [
+      "React",
+      "node.js",
+      "express",
+      "socket.io",
+      "redux",
+      "mongoDB",
+    ],
+    github: "https://github.com/Divyanshu1020/VideoChatApp-Frontend",
+    live: "https://chat-app-olive-ten.vercel.app/",
   },
   {
-    title: "Task Management App",
+    title: "The Fanfiction Frontier",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    longDescription: `A powerful task management solution designed for team collaboration. Notable features include:
-  
-  • Real-time updates using WebSocket
-  • Drag-and-drop task organization
-  • Team workspaces and permissions
-  • File attachments and sharing
-  • Task comments and mentions
-  • Due date reminders
-  • Progress tracking
-  • Integration with popular tools
-  • Detailed activity logs`,
+      "Unleash Your Inner Storyteller! Write engaging blogs about your favorite characters, explore mind-bending alternate realities, or simply share your passionate thoughts with a community of fellow enthusiasts.",
+    longDescription: `
+    # What If? The Fanfiction Frontier
+
+What If? is a web application built with React, Tailwind CSS, and TypeScript, leveraging Appwrite for backend services. It provides a platform for users to create and share blog posts centered around fan fiction, character analysis, and personal opinions.
+
+## Tech Stack:
+- Frontend: React, Tailwind CSS, TypeScript
+- Backend: Appwrite
+
+## Key Features:
+
+- **Unrestricted Creativity**: Write about any character, from Marvel and Anime to your own original creations.
+- **Interactive Community**: Connect with fans, share ideas, and engage in lively discussions.
+- **Sleek Design**: Immerse yourself in a visually stunning platform built with React, Tailwind CSS, and TypeScript.
+- **Powerful Backend**: Enjoy a seamless user experience powered by Appwrite.
+### Join the What If? movement and let your imagination run wild!
+
+    `,
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
-    technologies: ["React", "Firebase", "Material-UI", "WebSocket"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://res.cloudinary.com/dnq2kbsta/image/upload/c_crop,g_auto,h_626,w_1234/portfolio/s9po66wkx6860bmausvd",
+    technologies: ["React", "Tailwind CSS", "TypeScript","Appwrite"],
+    github: "https://github.com/Divyanshu1020/The-Fanfiction-Frontier",
+    live: "https://wb.binaryvish.me/post/Tony%20Stark%7D/a-night-with-the-bat/66aaaab5000bb3ff8f5c",
   },
   {
-    title: "AI Content Generator",
+    title: "Dev Magic: Summon the Spell of Creation",
     description:
-      "An AI-powered content generation tool that helps create blog posts, social media content, and marketing copy using GPT-3.",
-    longDescription: `Leveraging the power of AI to revolutionize content creation. Key features include:
-  
-  • Integration with OpenAI's GPT-3
-  • Multiple content types support
-  • Custom tone and style settings
-  • SEO optimization suggestions
-  • Content history and versioning
-  • Export to multiple formats
-  • Team collaboration tools
-  • Analytics and performance tracking
-  • API access for developers`,
+      "This is a personal Command Line Interface (CLI) tool for quickly setting up React projects with a preferred folder structure and configurations. It's designed for personal use and to streamline the process of starting new React projects.",
+    longDescription: `Dev Magic: Summon the Spell of Creation
+
+**dev-magic** is an arcane CLI spell that conjures the bones of your application—frontend and backend—ready to harness the powers of React and Node.js. With a single incantation, it weaves together optimal, scalable structures imbued with legendary features: Redux, Axios, Tailwind, Socket.IO, Redis, Kafka, Prisma, Swagger, and GraphQL. Perfect for developers seeking an enchanted kickstart.
+
+## Enchanted Powers
+
+- **Frontend Creation Magic (React)**: Summons a basic React application from the void.
+- **Backend Creation Magic (Node.js)**: Calls forth a Node.js backend with Express.
+- **Feature Conjurations**:
+  - **Redux** for spellbinding state control.
+  - **Axios** for mystical HTTP requests.
+  - **TailwindCSS** for woven styling.
+  - **Socket.IO** for real-time communication.
+  - **Redis** for caching and enchanted messaging.
+  - **Kafka** for seamless event streaming.
+  - **Prisma** for database ORM magic.
+  - **Swagger** for clarity in API documentation.
+  - **GraphQL** for powerful API architecture.
+  `,
     image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
-    technologies: ["Next.js", "OpenAI API", "TailwindCSS", "TypeScript"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://th.bing.com/th/id/OIP.C4l9TvrafiN-YRdS6e7nGwHaD4?rs=1&pid=ImgDetMain",
+    technologies: ["Node.js", "TypeScript"],
+    github: "https://github.com/Divyanshu1020/Dev-Magic-Project-Creator-CLI/tree/main",
+    live: "https://www.npmjs.com/package/dev-magic",
   },
 ];
 export const allExpriences = [
@@ -94,8 +125,7 @@ export const allExpriences = [
     title: "Freelance Web Developer (Freelance) ",
     company: "The Squirrel",
     period: "Oct 2024 – Nov 2024",
-    description:
-      `
+    description: `
 Built a responsive and visually appealing portfolio website for a client to showcase their projects.
 Collaborated with the client to ensure the design met their requirements and expectations.
 Implemented SEO-friendly features to improve visibility.

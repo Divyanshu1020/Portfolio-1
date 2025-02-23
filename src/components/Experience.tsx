@@ -25,7 +25,7 @@ const Experience = () => {
     <section id="experience" className="py-10 bg-background">
       <div className="container mx-auto px-4">
         <motion.h2
-          className="text-4xl font-bold text-gray-200 mb-12 text-center"
+          className="text-3xl md:text-4xl font-bold text-gray-200 mb-12 text-center"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

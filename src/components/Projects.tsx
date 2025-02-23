@@ -99,7 +99,7 @@ const Projects = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+              className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center sm:p-4"
               onClick={() => setSelectedProject(null)}
             >
               <motion.div
@@ -107,7 +107,7 @@ const Projects = () => {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                className="bg-white dark:bg-muted rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto scrollbar-none"
+                className="bg-white dark:bg-muted rounded-2xl w-full max-w-4xl max-h-[100vh] sm:max-h-[90vh] overflow-y-auto scrollbar-none"
                 onClick={(e) => e.stopPropagation()}
                 style={{
                   scrollbarWidth: "none", // Firefox
@@ -118,7 +118,7 @@ const Projects = () => {
                   <img
                     src={selectedProject.image}
                     alt={selectedProject.title}
-                    className="w-full h-64 object-cover rounded-t-2xl"
+                    className="w-full  object-cover rounded-t-2xl"
                   />
                   <motion.button
                     className="absolute top-4 right-4 p-2 bg-white dark:bg-gray-700 rounded-full shadow-lg"
@@ -154,7 +154,7 @@ const Projects = () => {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.2 +  0.1 }}
                         >
-                          <Markdown>{selectedProject.longDescription}</Markdown>
+                          <Markdown className={"flex flex-col gap-3"}>{selectedProject.longDescription}</Markdown>
                         </motion.p>
                   </div>
                   <div className="flex gap-4">

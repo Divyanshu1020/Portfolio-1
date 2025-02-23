@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <motion.h1 
-            className="text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent animate-gradient"
+            className=" md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent animate-gradient"
             initial={{ scale: 0.9 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -38,7 +38,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <motion.a 
-              href="https://github.com" 
+              href="https://github.com/Divyanshu1020" 
               className="p-2 rounded-full  text-white hover:bg-gray-700 transition"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
@@ -46,7 +46,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </motion.a>
             <motion.a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/divyanshu2010/" 
               className="p-2 rounded-full  text-white hover:bg-gray-700  transition"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
@@ -54,7 +54,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </motion.a>
             <motion.a 
-              href="mailto:contact@example.com" 
+              href="divyanshuvishwakarma222@gmail.com" 
               className="p-2 rounded-full  text-white hover:bg-gray-700 transition"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
