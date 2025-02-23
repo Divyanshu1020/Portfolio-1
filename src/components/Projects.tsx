@@ -107,7 +107,7 @@ const Projects = () => {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                className="bg-white dark:bg-muted rounded-2xl w-full max-w-4xl max-h-[100vh] sm:max-h-[90vh] overflow-y-auto scrollbar-none"
+                className="bg-white dark:bg-muted rounded-2xl w-full max-w-4xl max-h-[100dvh] sm:max-h-[90vh] overflow-y-auto scrollbar-none"
                 onClick={(e) => e.stopPropagation()}
                 style={{
                   scrollbarWidth: "none", // Firefox
