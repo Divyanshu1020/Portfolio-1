@@ -56,10 +56,10 @@ export default function ProjectCard({ project, index, setSelectedProject }) {
           {project.technologies.map((tech, techIndex) => (
             <motion.span
               key={techIndex}
-              className="relative  bg-blue-100 dark:bg-muted dark:text-black border text-blue-600 rounded-full text-xs"
+              className="relative  bg-blue-100 dark:bg-muted dark:text-black border text-blue-600 rounded-full text-xs p-[2px]"
               whileHover={{ scale: 1.05 }}
             >
-              <Badge variant="secondary">{tech}</Badge>
+              <Badge className=" text-nowrap" variant="secondary">{tech}</Badge>
             </motion.span>
           ))}
         </div>
