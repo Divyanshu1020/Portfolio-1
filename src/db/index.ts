@@ -10,6 +10,28 @@ export interface Project {
 type AllProjects = Project[];
 
 export const allProjects: AllProjects = [
+{
+    title: "Spelling Practice with Audio",
+    description:
+      "Improve your spelling skills by listening to words and typing them correctly. A fun and interactive way to enhance your vocabulary!.",
+    longDescription: `
+### Improve your spelling skills by listening to words and typing them correctly. A fun and interactive way to enhance your vocabulary!.
+
+
+## 🛠️ Technologies Used
+
+- Next.js
+- Tailwind CSS
+- Framer Motion
+`,
+    image:
+      "https://res.cloudinary.com/dnq2kbsta/image/upload/t_edit/portfolio/wmw7tobsbgngxwzycoj0",
+    technologies: [
+      "Next.js",
+    ],
+    github: "https://github.com/Divyanshu1020/Portfolio-1",
+    live: "https://spellprap.vercel.app/",
+  },
   {
     title: "Real-Time Chat Application",
     description:
