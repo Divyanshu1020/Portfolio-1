@@ -129,6 +129,26 @@ What If? is a web application built with React, Tailwind CSS, and TypeScript, le
     github: "https://github.com/Divyanshu1020/Dev-Magic-Project-Creator-CLI/tree/main",
     live: "https://www.npmjs.com/package/dev-magic",
   },
+  {
+    title: "Sorting Visualizer",
+    description:
+      "Sorting Visualizer is an interactive web application built with Next.js that visually demonstrates how various sorting algorithms work..",
+    longDescription: `
+### Sorting Visualizer is an interactive web application built with Next.js that visually demonstrates how various sorting algorithms work. It aims to help users, particularly students and educators, to better understand and learn the intricacies of different sorting algorithms through dynamic visual representations.
+
+
+## 🛠️ Technologies Used
+
+- React.js
+`,
+    image:
+      "https://res.cloudinary.com/dnq2kbsta/image/upload/t_edit/portfolio/urkat6db5kt6emvpveby",
+    technologies: [
+      "React.js",
+    ],
+    github: "https://github.com/Divyanshu1020/Sorting-Visualizer",
+    live: "https://sorting-visualizer-bay-one.vercel.app/",
+  },
 ];
 export const allExpriences = [
   {
